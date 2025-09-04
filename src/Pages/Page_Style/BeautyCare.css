@@ -1,0 +1,83 @@
+.main-content {
+  padding-top: 80px; 
+}
+
+.beauty-care-section {
+  padding: 50px 20px;
+}
+
+.beauty-care-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.beauty-care-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+.beauty-care-card {
+  flex: 0 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.beauty-care-card:hover {
+  transform: scale(1.05);
+}
+
+.beauty-care-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.beauty-care-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.beauty-care-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.beauty-care-price {
+  color: #e63946;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.beauty-care-rating {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.product-buttons button {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.product-buttons button:hover {
+  transform: scale(1.3);
+}

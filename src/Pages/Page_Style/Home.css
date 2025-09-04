@@ -1,0 +1,96 @@
+.home-container {
+  background: linear-gradient(to bottom, #e8ffff, #a6f6f1);
+  padding: 40px 60px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #111;
+  text-align: left;
+  padding: 80px 0 20px 100px;
+  margin: 0;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+.home-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 100px;
+  color: #444;
+}
+
+.hero-banner {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 100px;
+  min-width: 300px;
+}
+
+.hero-banner img {
+  margin: 20px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 20px;
+}
+
+.section-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.section-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.section-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.mini-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.section-card a {
+  color: #007185;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.section-card a:hover {
+  text-decoration: underline;
+}

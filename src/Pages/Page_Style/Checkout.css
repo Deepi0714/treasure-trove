@@ -1,0 +1,83 @@
+.main-content {
+  padding-top: 80px; 
+}
+
+.checkout-container {
+  width: 400px;
+  margin: 120px auto 40px; 
+  padding: 30px;
+  background-color: #b2f2f8;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.checkout-container h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.checkout-container input[type="text"],
+.checkout-container select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.checkout-container input:focus,
+.checkout-container select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.checkout-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.checkout-container ul li {
+  font-size: 16px;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.checkout-container h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  border: none;
+  border-radius: 8px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.checkout-button:hover {
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+}
+

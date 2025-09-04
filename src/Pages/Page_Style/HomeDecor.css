@@ -1,0 +1,83 @@
+
+.main-content {
+  padding-top: 80px; 
+}
+.home-decor-section {
+  padding: 50px 20px;
+}
+
+.home-decor-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.home-decor-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.home-decor-card {
+  flex: 0 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.home-decor-card:hover {
+  transform:scale(1.05)
+}
+
+.home-decor-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.home-decor-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.home-decor-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.home-decor-price {
+  color: #e63946;;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.home-decor-rating {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+}
+
+.product-buttons button {
+   border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.product-buttons button:hover {
+  transform: scale(1.3);
+}
