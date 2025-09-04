@@ -1,3 +1,17 @@
 # treasure-trove
-MERN stack e-commerce platform. Customers can browse products by category, add to cart/Wishlist, checkout. Includes user authentication, protected routes, and MongoDB for database storage.
->>>>>>> ddc1173ad5ac8ee030b25a68f6d30878426a015b
+MERN stack e-commerce platform. 
+**Frontend: React, HTML, CSS, JavaScript
+Backend: Node.js, Express.js
+Database: MongoDB**
+
+Features:
+
+Browse products by categories (Toys, Fashion, Electronics, etc.)
+
+Add to Cart, Wishlist, and Checkout
+
+User authentication with JWT & Protected Routes
+
+MongoDB with email confirmation
+
+Responsive design with Amazon-style layout
